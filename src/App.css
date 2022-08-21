@@ -1,0 +1,61 @@
+body{
+  background-color: #333;
+  color: white
+}
+
+.App {
+  text-align: center;
+}
+
+.bg-task div{
+  display: flex;
+  align-items: center;
+}
+
+.bg-task{
+  background-color: #333;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+  border: 2px solid white;
+}
+
+.task-number{
+  color: grey;
+  font-size: 14px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 8px;
+  border: 1px solid grey;
+}
+
+.bg-task .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+
+.bg-task .task-buttons{
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  display: inline-block;
+}
+
+.bg-task .task-buttons span{
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  color: lightgreen;
+}
+
